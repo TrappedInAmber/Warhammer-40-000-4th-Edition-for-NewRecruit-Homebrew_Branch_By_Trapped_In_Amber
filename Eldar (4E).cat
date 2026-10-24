@@ -3717,7 +3717,7 @@ A target with an Armour Value that is hit by a vibro cannon always suffers a sin
     </selectionEntry>
     <selectionEntry name="Shroud Runners" id="d448-fc04-a5c4-b370" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Fast Attack" id="11ae-857b-ea51-ac23" hidden="false" primary="false" targetId="11cf-dc94-5c14-2c2a"/>
+        <categoryLink name="Fast Attack" id="11ae-857b-ea51-ac23" hidden="false" primary="true" targetId="11cf-dc94-5c14-2c2a"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Stealth" id="e552-e1c5-93a0-51da" hidden="false" targetId="744d-4143-694e-f87f" type="rule"/>
