@@ -2254,7 +2254,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Trygon" id="f008-936e-2953-7289" hidden="false" import="true" type="model">
+    <selectionEntry name="Trygon (IA)" id="f008-936e-2953-7289" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="bc94-33d9-2ecd-d23d" hidden="false" primary="true" targetId="6a52-1951-5b0c-024e"/>
       </categoryLinks>
@@ -2267,8 +2267,8 @@
       <entryLinks>
         <entryLink name="Scything Talons" id="46e4-61c4-da0a-f65b" hidden="false" import="true" targetId="6471-c007-8bbe-ff76" type="selectionEntry">
           <constraints>
-            <constraint id="148b-920d-8387-0269-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
-            <constraint id="148b-920d-8387-0269-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+            <constraint id="3b2b-952b-95ad-a6c7-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="3b2b-952b-95ad-a6c7-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
           </constraints>
         </entryLink>
         <entryLink name="Scythe Tail" id="21bb-da73-eef3-d357" hidden="false" import="true" targetId="3013-13f5-5f97-c328" type="selectionEntry">
@@ -2304,7 +2304,7 @@
             <characteristic name="T" typeId="5.423232344415441e+21">7</characteristic>
             <characteristic name="W" typeId="5.723232344415441e+21">5</characteristic>
             <characteristic name="I" typeId="4.923232344415441e+21">5</characteristic>
-            <characteristic name="A" typeId="4.123232344415441e+21">3</characteristic>
+            <characteristic name="A" typeId="4.123232344415441e+21">3(5)</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
             <characteristic name="Sv" typeId="5.361766523232344e+27">3+</characteristic>
           </characteristics>
@@ -2312,14 +2312,13 @@
       </profiles>
       <rules>
         <rule name="Gargantuan Creature" id="a81f-f961-8033-5113" hidden="false" page="164" publicationId="6ea6-0bcb-b3b1-1ba5">
-          <description>When a gargantuan creature is attacked, the weapon used may not be capable of of inflicting serious damage to such a large creature. A gargantuan creature&apos;s mass points must be reduced to 0 before normal wounds can be lost. Mass points are lost by inflicting serious wounds. Each serious wound inflicts 1 mass point of damage. A titan-killer weapon inflicts D3 mass points of damage.
+          <description>Being a gargantuan creature, a Trygon never falls back when in combat with a war machine. A gargantuan creature can still be fired upon in the shooting phase when engaged in an assault with a non-gargantuan creature. It counts as 10 models for the purposes of calculating enemy morale after an assault.
 
+When a gargantuan creature is attacked, the weapon used may not be capable of of inflicting serious damage to such a large creature. A gargantuan creature&apos;s mass points must be reduced to 0 before normal wounds can be lost. Mass points are lost by inflicting serious wounds. Each serious wound inflicts 1 mass point of damage. A titan-killer weapon inflicts D3 mass points of damage.
 
 The severity of a wound is only considered after a successful wound roll is made and a saving throw (if any) attempted. Ordnance, massive or mega-weapons with a strength equal to or greater than the creature&apos;s Toughness will always inflict serious wounds. Other weapons with strength equal to or greater than the the creature&apos;s Toughness will inflict serious wounds on a 4+. In all other circumstances the wound is serious on a 6.
 
-
 Once a gargantuan creature has no mass points remaining it starts to take wounds as normal. Once it has no wounds remaining the creature is killed.
-
 
 Notes on lethal weapons: Lethal weapons are any weapon which has a special effect (such as plague swords, force weapons, wraithcannons etc). Their effects only function if a serious wound is inflicted. Lethal weapons which have no strength value always inflict a serious wound on a roll of a 6.</description>
         </rule>
@@ -2330,7 +2329,7 @@ Notes on lethal weapons: Lethal weapons are any weapon which has a special effec
 Such is the Trygon&apos;s size and power that if it emerges with 1&quot; of any enemy models (and would therefore normally be destroyed), it is not destroyed but instead it is placed as normal, move any enemy models out of the way, but still place them in base contact with the Trygon. The Trygon counts as having assaulted the enemy. If the Trygon emerges within 1&quot; of a Super-heavy vehicle or a creature with mass points then it is destroyed as normal.</description>
         </rule>
         <rule name="Mass Points" id="badc-71ab-a92c-c311" hidden="false" page="106" publicationId="dd2d-f9b0-781c-f79f">
-          <description>The Trygon has 1 Mass Point</description>
+          <description>The Trygon has 1 mass point</description>
         </rule>
       </rules>
       <selectionEntries>
@@ -2352,6 +2351,213 @@ Such is the Trygon&apos;s size and power that if it emerges with 1&quot; of any 
           </profiles>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Scythed Hierodule (IA)" id="f5a4-8b86-a52d-8db7" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" id="b581-2c44-b3e9-ed45" hidden="false" primary="true" targetId="6a52-1951-5b0c-024e"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="4deb-313d-6685-f48b" value="445"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Scything Talons" id="d077-0049-6d1d-0702" hidden="false" import="true" targetId="6471-c007-8bbe-ff76" type="selectionEntry">
+          <constraints>
+            <constraint id="f21a-841e-d48c-186c-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="f21a-841e-d48c-186c-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="The Horror" id="d8ea-8ab6-4ed6-1d5e" hidden="false" import="true" targetId="b727-2a92-43c3-0e28" type="selectionEntry">
+          <constraints>
+            <constraint id="e82a-9bde-56a6-1ea9" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="18d2-add6-63ce-7696-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="18d2-add6-63ce-7696-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Fearless" id="85f3-da55-7ce4-16b4" hidden="false" targetId="db33-1068-512b-6958" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Scythed Hierodule" id="03bc-cd72-2c62-67f4" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Monstrous Creature</characteristic>
+            <characteristic name="WS" typeId="5.753232323444154e+23">6</characteristic>
+            <characteristic name="BS" typeId="4.2532323234441546e+23">2</characteristic>
+            <characteristic name="S" typeId="5.323232344415441e+21">10</characteristic>
+            <characteristic name="T" typeId="5.423232344415441e+21">8</characteristic>
+            <characteristic name="W" typeId="5.723232344415441e+21">5</characteristic>
+            <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
+            <characteristic name="A" typeId="4.123232344415441e+21">2(4)</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
+            <characteristic name="Sv" typeId="5.361766523232344e+27">2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bio-acid Spray" id="a7c9-40ca-f033-afb4" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="52616e676523232344415441232323">Template</characteristic>
+            <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
+            <characteristic name="AP" typeId="4.1502323234441545e+23">3</characteristic>
+            <characteristic name="Type" typeId="8b10-045a-f593-605e">Assault 1</characteristic>
+            <characteristic name="Info" typeId="33e9-27bd-77e4-401d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Gargantuan Creature" id="547b-1a71-1bf9-e6fa" hidden="false" page="164" publicationId="6ea6-0bcb-b3b1-1ba5">
+          <description>Being a gargantuan creature, a Scythed Hierodule never falls back when in combat with a war machine. A gargantuan creature can still be fired upon in the shooting phase when engaged in an assault with a non-gargantuan creature. It counts as 20 models for the purposes of calculating enemy morale after an assault.
+
+When a gargantuan creature is attacked, the weapon used may not be capable of of inflicting serious damage to such a large creature. A gargantuan creature&apos;s mass points must be reduced to 0 before normal wounds can be lost. Mass points are lost by inflicting serious wounds. Each serious wound inflicts 1 mass point of damage. A titan-killer weapon inflicts D3 mass points of damage.
+
+The severity of a wound is only considered after a successful wound roll is made and a saving throw (if any) attempted. Ordnance, massive or mega-weapons with a strength equal to or greater than the creature&apos;s Toughness will always inflict serious wounds. Other weapons with strength equal to or greater than the the creature&apos;s Toughness will inflict serious wounds on a 4+. In all other circumstances the wound is serious on a 6.
+
+Once a gargantuan creature has no mass points remaining it starts to take wounds as normal. Once it has no wounds remaining the creature is killed.
+
+Notes on lethal weapons: Lethal weapons are any weapon which has a special effect (such as plague swords, force weapons, wraithcannons etc). Their effects only function if a serious wound is inflicted. Lethal weapons which have no strength value always inflict a serious wound on a roll of a 6.</description>
+        </rule>
+        <rule name="Mass Points" id="7eae-7da7-717c-ebac" hidden="false">
+          <description>The Scythed Hierodule has 2 mass points</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry name="Barbed Hierodule (IA)" id="4d96-ccfb-e615-80ee" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" id="cdef-b0b0-a232-d945" hidden="false" primary="true" targetId="6a52-1951-5b0c-024e"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="4deb-313d-6685-f48b" value="540"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="The Horror" id="6da7-a108-cde8-6d67" hidden="false" import="true" targetId="b727-2a92-43c3-0e28" type="selectionEntry">
+          <constraints>
+            <constraint id="91e8-148f-05fb-3cff-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="91e8-148f-05fb-3cff-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Fearless" id="406b-4937-14e7-1ea1" hidden="false" targetId="db33-1068-512b-6958" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Barbed Hierodule" id="6fac-5368-24ee-c243" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Monstrous Creature</characteristic>
+            <characteristic name="WS" typeId="5.753232323444154e+23">4</characteristic>
+            <characteristic name="BS" typeId="4.2532323234441546e+23">3</characteristic>
+            <characteristic name="S" typeId="5.323232344415441e+21">8</characteristic>
+            <characteristic name="T" typeId="5.423232344415441e+21">8</characteristic>
+            <characteristic name="W" typeId="5.723232344415441e+21">5</characteristic>
+            <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
+            <characteristic name="A" typeId="4.123232344415441e+21">1(2)</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
+            <characteristic name="Sv" typeId="5.361766523232344e+27">2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Gargantuan Creature" id="d94a-331f-e79e-4aa8" hidden="false" page="164" publicationId="6ea6-0bcb-b3b1-1ba5">
+          <description>Being a gargantuan creature, a Barbed Hierodule never falls back when in combat with a war machine. A gargantuan creature can still be fired upon in the shooting phase when engaged in an assault with a non-gargantuan creature. It counts as 20 models for the purposes of calculating enemy morale after an assault.
+
+When a gargantuan creature is attacked, the weapon used may not be capable of of inflicting serious damage to such a large creature. A gargantuan creature&apos;s mass points must be reduced to 0 before normal wounds can be lost. Mass points are lost by inflicting serious wounds. Each serious wound inflicts 1 mass point of damage. A titan-killer weapon inflicts D3 mass points of damage.
+
+The severity of a wound is only considered after a successful wound roll is made and a saving throw (if any) attempted. Ordnance, massive or mega-weapons with a strength equal to or greater than the creature&apos;s Toughness will always inflict serious wounds. Other weapons with strength equal to or greater than the the creature&apos;s Toughness will inflict serious wounds on a 4+. In all other circumstances the wound is serious on a 6.
+
+Once a gargantuan creature has no mass points remaining it starts to take wounds as normal. Once it has no wounds remaining the creature is killed.
+
+Notes on lethal weapons: Lethal weapons are any weapon which has a special effect (such as plague swords, force weapons, wraithcannons etc). Their effects only function if a serious wound is inflicted. Lethal weapons which have no strength value always inflict a serious wound on a roll of a 6.</description>
+        </rule>
+        <rule name="Mass Points" id="ab26-8cc8-4445-2e94" hidden="false">
+          <description>The Barbed Hierodule has 2 mass points</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry name="Bio-Cannon" id="a488-f189-dbbf-23c9" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="5aa3-a478-25bc-fd39-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="5aa3-a478-25bc-fd39-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Twin-Linked" id="9367-468a-222a-b9f7" hidden="false" targetId="91b9-40d6-1ecb-6414" type="rule"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Bio-Cannon" id="f93e-2c34-c7c4-dfeb" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">10</characteristic>
+                <characteristic name="AP" typeId="4.1502323234441545e+23">3</characteristic>
+                <characteristic name="Type" typeId="8b10-045a-f593-605e">Assault 1, Large Blast</characteristic>
+                <characteristic name="Info" typeId="33e9-27bd-77e4-401d">Since the Barbed Hierodule is armed with two Bio-Cannons, they count as Twin-Linked weapons.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Malanthrope (IA)" id="047b-6d5d-ff62-f397" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="HQ" id="85f0-4736-f01a-e287" hidden="false" primary="true" targetId="0d45-9523-cfd8-4efd"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="4deb-313d-6685-f48b" value="140"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Feeder Tendrils" id="b00c-6c8e-aef4-5b6a" hidden="false" import="true" targetId="f872-9b33-0ef4-d9c3" type="selectionEntry">
+          <constraints>
+            <constraint id="9f30-6145-c41c-ae6f-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="9f30-6145-c41c-ae6f-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="The Horror" id="656a-57e6-2b3c-1e79" hidden="false" import="true" targetId="b727-2a92-43c3-0e28" type="selectionEntry">
+          <constraints>
+            <constraint id="698b-a0f7-7660-004f-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="698b-a0f7-7660-004f-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="ce0f-786a-b6c5-44b6" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="baf3-eb08-698c-4667" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Synapse Creature" id="5481-c03c-1e7b-45a1" hidden="false" import="true" targetId="cd93-cf94-62a6-a851" type="selectionEntry">
+          <constraints>
+            <constraint id="727b-61aa-998f-0029" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="97de-f553-ceff-6e52" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="733e-a7fc-01d8-7b16-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="733e-a7fc-01d8-7b16-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Warp Field" id="a525-b23b-6bb8-8178" hidden="false" import="true" targetId="f4f9-7eee-0a6a-5df0" type="selectionEntry">
+          <constraints>
+            <constraint id="8f99-e08a-3853-dc83" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="64ae-70da-1dec-9cc9" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="bdce-380b-8395-2338-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="bdce-380b-8395-2338-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Fleet" id="6b94-4153-854f-6577" hidden="false" targetId="56d8-9340-2dc6-cd37" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Malanthrope" id="a723-b5db-2b9d-1d63" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Infantry</characteristic>
+            <characteristic name="WS" typeId="5.753232323444154e+23">3</characteristic>
+            <characteristic name="BS" typeId="4.2532323234441546e+23">3</characteristic>
+            <characteristic name="S" typeId="5.323232344415441e+21">6</characteristic>
+            <characteristic name="T" typeId="5.423232344415441e+21">6</characteristic>
+            <characteristic name="W" typeId="5.723232344415441e+21">4</characteristic>
+            <characteristic name="I" typeId="4.923232344415441e+21">4</characteristic>
+            <characteristic name="A" typeId="4.123232344415441e+21">1+D6</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
+            <characteristic name="Sv" typeId="5.361766523232344e+27">2+/6+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Large Target" id="e8af-ceeb-6b1c-c043" hidden="false">
+          <description>The Malanthrope can be targeted instead of normal infantry without a target priority check.</description>
+        </rule>
+        <rule name="Anaphylatic Shock" id="8d67-39da-fbe6-ca3f" hidden="false">
+          <description>Due to its extreme toxicity, any wound from the Malanthrope causes Instant Death. This does not effect Daemons - as warp beings they are immune to the toxins. This includes C&apos;tan and the Eldar Avatar.</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </selectionEntries>
   <sharedRules>
