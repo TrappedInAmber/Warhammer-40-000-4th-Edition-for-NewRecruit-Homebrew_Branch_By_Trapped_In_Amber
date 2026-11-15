@@ -2306,6 +2306,10 @@ Such is the Trygon&apos;s size and power that if it emerges with 1&quot; of any 
       </rules>
       <selectionEntries>
         <selectionEntry name="Bio-Electric Field" id="dbe1-7a1a-50a4-caea" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="0519-6b84-a8c5-c052-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="0519-6b84-a8c5-c052-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
           <profiles>
             <profile name="Bio-Electric Pulse" id="776b-072f-8ba5-ae16" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
               <characteristics>
