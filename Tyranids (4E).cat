@@ -2283,7 +2283,7 @@
         <infoLink name="Deep Strike" id="f994-bb48-025b-ef4e" hidden="false" targetId="bbf5-b1c2-49b0-f3c2" type="rule"/>
       </infoLinks>
       <modifiers>
-        <modifier field="8625-acc4-783d-c1e2" type="set" value="0">
+        <modifier field="8625-acc4-783d-c1e2" type="set" value="1">
           <conditions>
             <condition childId="ffec-5ddd-e605-f1fb" childName="Ravener Brood" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
           </conditions>
