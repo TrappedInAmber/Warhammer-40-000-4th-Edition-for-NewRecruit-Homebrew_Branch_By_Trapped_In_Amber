@@ -2256,7 +2256,7 @@
     </selectionEntry>
     <selectionEntry name="Trygon" id="f008-936e-2953-7289" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="Heavy Support" id="74b5-5bd1-cbc9-d6e3" hidden="false" primary="false" targetId="6a52-1951-5b0c-024e"/>
+        <categoryLink name="Heavy Support" id="bc94-33d9-2ecd-d23d" hidden="false" primary="true" targetId="6a52-1951-5b0c-024e"/>
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="4deb-313d-6685-f48b" value="290"/>
