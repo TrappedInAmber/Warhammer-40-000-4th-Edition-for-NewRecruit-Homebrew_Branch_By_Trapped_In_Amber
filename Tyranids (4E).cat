@@ -2304,17 +2304,10 @@
             <characteristic name="T" typeId="5.423232344415441e+21">7</characteristic>
             <characteristic name="W" typeId="5.723232344415441e+21">5</characteristic>
             <characteristic name="I" typeId="4.923232344415441e+21">5</characteristic>
-            <characteristic name="A" typeId="4.123232344415441e+21">3</characteristic>
+            <characteristic name="A" typeId="4.123232344415441e+21">3(5)</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
             <characteristic name="Sv" typeId="5.361766523232344e+27">3+</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier field="4.123232344415441e+21" type="set" value="5">
-              <conditions>
-                <condition childId="e00c-7590-d8bd-9344" childName="Scything Talons" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </profile>
       </profiles>
       <rules>
