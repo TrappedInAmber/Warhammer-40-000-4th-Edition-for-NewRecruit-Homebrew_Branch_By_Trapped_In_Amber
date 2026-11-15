@@ -2290,7 +2290,7 @@
         </modifier>
         <modifier field="error" type="add" value="Trygon can only be taken in armies containing at least 1 brood of Raveners">
           <conditions>
-            <condition childId="ffec-5ddd-e605-f1fb" childName="Ravener Brood" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+            <condition childId="ffec-5ddd-e605-f1fb" childName="Ravener Brood" field="selections" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
           </conditions>
         </modifier>
       </modifiers>
