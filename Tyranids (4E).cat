@@ -2288,7 +2288,11 @@
             <condition childId="ffec-5ddd-e605-f1fb" childName="Ravener Brood" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
           </conditions>
         </modifier>
-        <modifier field="error" type="add" value="Trygon can only be taken in armies containing at least 1 brood of Raveners"/>
+        <modifier field="error" type="add" value="Trygon can only be taken in armies containing at least 1 brood of Raveners">
+          <conditions>
+            <condition childId="ffec-5ddd-e605-f1fb" childName="Ravener Brood" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <profiles>
         <profile name="Trygon" id="2816-8940-8cb6-ca10" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
