@@ -2259,7 +2259,7 @@
         <categoryLink name="Heavy Support" id="bc94-33d9-2ecd-d23d" hidden="false" primary="true" targetId="6a52-1951-5b0c-024e"/>
       </categoryLinks>
       <constraints>
-        <constraint id="8625-acc4-783d-c1e2" field="selections" scope="parent" shared="true" type="max" value="-1"/>
+        <constraint id="8625-acc4-783d-c1e2" field="selections" scope="parent" shared="true" type="max" value="0"/>
       </constraints>
       <costs>
         <cost name="Points" typeId="4deb-313d-6685-f48b" value="290"/>
@@ -2283,7 +2283,7 @@
         <infoLink name="Deep Strike" id="f994-bb48-025b-ef4e" hidden="false" targetId="bbf5-b1c2-49b0-f3c2" type="rule"/>
       </infoLinks>
       <modifiers>
-        <modifier field="8625-acc4-783d-c1e2" type="set" value="1">
+        <modifier field="8625-acc4-783d-c1e2" type="set" value="-1">
           <conditions>
             <condition childId="ffec-5ddd-e605-f1fb" childName="Ravener Brood" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
           </conditions>
