@@ -2311,12 +2311,26 @@
         </profile>
       </profiles>
       <rules>
-        <rule name="Gargantuan Creature" id="a81f-f961-8033-5113" hidden="false" page="160" publicationId="6ea6-0bcb-b3b1-1ba5"/>
+        <rule name="Gargantuan Creature" id="a81f-f961-8033-5113" hidden="false" page="164" publicationId="6ea6-0bcb-b3b1-1ba5">
+          <description>When a gargantuan creature is attacked, the weapon used may not be capable of of inflicting serious damage to such a large creature. A gargantuan creature&apos;s mass points must be reduced to 0 before normal wounds can be lost. Mass points are lost by inflicting serious wounds. Each serious wound inflicts 1 mass point of damage. A titan-killer weapon inflicts D3 mass points of damage.
+
+
+The severity of a wound is only considered after a successful wound roll is made and a saving throw (if any) attempted. Ordnance, massive or mega-weapons with a strength equal to or greater than the creature&apos;s Toughness will always inflict serious wounds. Other weapons with strength equal to or greater than the the creature&apos;s Toughness will inflict serious wounds on a 4+. In all other circumstances the wound is serious on a 6.
+
+
+Once a gargantuan creature has no mass points remaining it starts to take wounds as normal. Once it has no wounds remaining the creature is killed.
+
+
+Notes on lethal weapons: Lethal weapons are any weapon which has a special effect (such as plague swords, force weapons, wraithcannons etc). Their effects only function if a serious wound is inflicted. Lethal weapons which have no strength value always inflict a serious wound on a roll of a 6.</description>
+        </rule>
         <rule name="Subterranean Tunnels" id="e2ec-8532-10da-c41d" hidden="false" page="106" publicationId="6ea6-0bcb-b3b1-1ba5">
           <description>The Trygon is large enough to carve underground tunnels along which smaller Tyranid creatures can follow. If the Trygon is Deep Striking, then the Tyranid player may place a single brood of Gaunts, Hormogaunts, Raveners or a Ripper Swarm in reserve with the Trygon. Once the Trygon emerges, the Brood will automatically follow in the next turn, moving on the table from the point where the Trygon arrived. If this means they would enter the table directly into an enemy unit, then they will move on in the assault phase and count as moving as normal.
 
 
 Such is the Trygon&apos;s size and power that if it emerges with 1&quot; of any enemy models (and would therefore normally be destroyed), it is not destroyed but instead it is placed as normal, move any enemy models out of the way, but still place them in base contact with the Trygon. The Trygon counts as having assaulted the enemy. If the Trygon emerges within 1&quot; of a Super-heavy vehicle or a creature with mass points then it is destroyed as normal.</description>
+        </rule>
+        <rule name="Mass Points" id="badc-71ab-a92c-c311" hidden="false" page="164" publicationId="dd2d-f9b0-781c-f79f">
+          <description>The Trygon has 1 Mass Point</description>
         </rule>
       </rules>
       <selectionEntries>
