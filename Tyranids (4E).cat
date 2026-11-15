@@ -2297,7 +2297,7 @@
       <profiles>
         <profile name="Trygon" id="2816-8940-8cb6-ca10" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
-            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Monstrous Creature</characteristic>
+            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Monstrous Creature, Beast</characteristic>
             <characteristic name="WS" typeId="5.753232323444154e+23">6</characteristic>
             <characteristic name="BS" typeId="4.2532323234441546e+23">2</characteristic>
             <characteristic name="S" typeId="5.323232344415441e+21">8</characteristic>
