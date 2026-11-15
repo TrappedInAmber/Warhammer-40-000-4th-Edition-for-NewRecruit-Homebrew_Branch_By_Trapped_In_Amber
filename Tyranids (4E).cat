@@ -2329,7 +2329,7 @@ Notes on lethal weapons: Lethal weapons are any weapon which has a special effec
 
 Such is the Trygon&apos;s size and power that if it emerges with 1&quot; of any enemy models (and would therefore normally be destroyed), it is not destroyed but instead it is placed as normal, move any enemy models out of the way, but still place them in base contact with the Trygon. The Trygon counts as having assaulted the enemy. If the Trygon emerges within 1&quot; of a Super-heavy vehicle or a creature with mass points then it is destroyed as normal.</description>
         </rule>
-        <rule name="Mass Points" id="badc-71ab-a92c-c311" hidden="false" page="164" publicationId="dd2d-f9b0-781c-f79f">
+        <rule name="Mass Points" id="badc-71ab-a92c-c311" hidden="false" page="106" publicationId="dd2d-f9b0-781c-f79f">
           <description>The Trygon has 1 Mass Point</description>
         </rule>
       </rules>
