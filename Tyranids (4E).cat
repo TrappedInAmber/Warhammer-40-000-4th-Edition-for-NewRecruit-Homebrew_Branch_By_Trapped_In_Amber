@@ -2496,6 +2496,9 @@ Notes on lethal weapons: Lethal weapons are any weapon which has a special effec
       <categoryLinks>
         <categoryLink name="HQ" id="85f0-4736-f01a-e287" hidden="false" primary="true" targetId="0d45-9523-cfd8-4efd"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="9256-bf6e-4367-b64a" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="0"/>
+      </constraints>
       <costs>
         <cost name="Points" typeId="4deb-313d-6685-f48b" value="140"/>
       </costs>
@@ -2534,6 +2537,18 @@ Notes on lethal weapons: Lethal weapons are any weapon which has a special effec
       <infoLinks>
         <infoLink name="Fleet" id="6b94-4153-854f-6577" hidden="false" targetId="56d8-9340-2dc6-cd37" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="9256-bf6e-4367-b64a" type="set" value="-1">
+          <conditions>
+            <condition childId="7ded-6895-b4d0-7163" childName="Ripper Swarm" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+        <modifier field="error" type="add" value="0 selections of Ripper Swarm in force">
+          <conditions>
+            <condition childId="7ded-6895-b4d0-7163" childName="Ripper Swarm" field="selections" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Malanthrope" id="a723-b5db-2b9d-1d63" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
